@@ -1,3 +1,4 @@
+from .agent_action_router import AgentActionRouter
 from .agent_context import AgentContextBuilder
 from .check_termination import CheckTerminationComponent
 from .CSVAgent import CSVAgentComponent
@@ -13,6 +14,7 @@ from .write_observation import ObserveResultComponent
 from .XMLAgent import XMLAgentComponent
 
 __all__ = [
+    "AgentActionRouter",
     "AgentContextBuilder",
     "CheckTerminationComponent",
     "CSVAgentComponent",
